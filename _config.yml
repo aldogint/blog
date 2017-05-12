@@ -1,7 +1,7 @@
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           none
+permalink:           :slug
 
 # relative permalinks is deprecated
 # relative_permalinks_deprecated: true
