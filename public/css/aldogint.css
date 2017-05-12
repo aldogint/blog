@@ -1,0 +1,101 @@
+/*imports*/
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+.post {
+	word-wrap: break-word;
+	margin-bottom: 2em;
+}
+
+.post p, .post ul li {
+	font-size: 18px;
+}
+
+.post .post-date {
+	font-size: 16px;
+}
+
+/** share buttons */
+.share-buttons ul {
+    padding:0;
+    list-style: none;
+}
+.share-buttons .social-icon {
+    color: #fff;
+}
+.share-buttons ul.social-icons {
+    margin-top: 10px;
+}
+.share-buttons .social-icons li {
+    vertical-align: top;
+    display: inline;
+    height: 100px;
+}
+.share-buttons .social-icons a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.share-buttons .fa-facebook {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.share-buttons .fa-facebook:hover {
+    background-color: #3d5b99;
+}
+
+.share-buttons .fa-twitter {
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.share-buttons .fa-twitter:hover {
+    background-color: #00aced;
+}
+
+.share-buttons .fa-google-plus {
+    padding:10px 9px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.share-buttons .fa-google-plus:hover {
+    background-color: #e25714;
+}
+
+.share-buttons .fa-pinterest {
+    padding:10px 9px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.share-buttons .fa-pinterest:hover {
+    background-color: #e64a41;
+}
+
+.share-buttons .fa-reddit {
+    padding:10px 9px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.share-buttons .fa-reddit:hover {
+    background-color: #ff4500;
+}

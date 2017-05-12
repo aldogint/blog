@@ -1,0 +1,39 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+
+# relative permalinks is deprecated
+# relative_permalinks_deprecated: true
+
+# Setup
+title:               aldogint
+tagline:             'notes'
+description:         'Personal blog to capture my programming journey.'
+url:                 aldoginting.net
+baseurl:             ''
+paginate:            5
+
+# About/contact
+author:
+  name:              Aldo Ginting
+  url:               https://aldogint.github.io
+  email:             aldoutamaginting@gmail.com
+
+# Custom vars
+version:             1.0.0
+
+# gems
+gems:
+  - jekyll-paginate
+  - jekyll-gist
+
+# pagination
+paginate: 5
+paginate_path: "page:num"
+
+# posts
+excerpt_separator: <!--more-->
+
+#serving
+baseurl: "/blog"
